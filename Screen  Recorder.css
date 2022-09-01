@@ -1,0 +1,346 @@
+body{
+    background-color: rgb(239, 243, 243);
+}
+#logo1{
+    margin-left: 0%;
+    width: 200px;
+    height: 40px;
+}
+#logo a{
+    color: rgb(10,111,154);
+}
+#toggle{
+    color: black;
+}
+#navitems{
+    display: inline;
+    display: flex;
+    list-style: none;
+
+    margin-left: 50px;
+    
+}
+#navitems li{
+    padding: 10px;
+}
+#navitems li a{
+    color: rgb(10,111,154);
+    font-size: 1rem;
+
+    
+}
+#navitems  li a :hover{
+    color: gray;
+    background-color: transparent;
+}
+#signin-btn{
+    border-radius: 30px;
+    border-color: rgb(10,111,154);
+    width: 150px;
+    margin-right: px;
+}
+#sigin-btn:hover{
+    background-color: rgb(10,111,154);
+}
+#chrome{
+
+    border-radius: 30px;
+    border-color:rgb(10,111,154) ;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 100px;
+    background-color: rgb(10,111,154);
+}
+.Free{
+    width: 100%;
+}
+.Free h1{
+    font-size: 4rem;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+    margin-top: 200px;
+    text-align: center;
+}
+.Free p{
+
+    color:rgb(102, 102, 102) ;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Free button{
+    border-radius: 30px;
+    border-color:rgb(10,111,154);
+    height: 50px;
+    color: #fff;
+    background-color: rgb(10,111,154);
+    width: 270px;
+    font-size: 1.3rem;
+    font-family: bold;
+    margin-bottom: 100px;
+}
+.Free button:hover{
+    color: rgb(102, 102, 102);
+    background-color: #fff;
+}
+#extensions{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    margin-bottom: 60px;
+}
+#ext-txt{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: rgb(102, 102, 102);
+}
+#cart-btn{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    border-color: rgb(10,111,154);
+    width: 180px;
+    height: 50px;
+    background-color: rgb(10,111,154);
+    color: white;
+}
+#cart-btn:hover{
+    background-color: white;
+    color: rgb(10,111,154);
+}
+#card1{
+    border-radius: 10px;
+    border-color: rgb(10,111,154);
+    border-style: groove;
+}
+.key{
+    margin-top: 180px;
+    background-color: ;
+}
+.key h1{
+    color: rgb(102,102,102);
+    font-size: 4rem;
+    text-align: center;
+}
+.key p{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+.key p span{
+    color: rgb(10,111,154);
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+  
+
+  }
+  .profile-card{
+    text-align: center;
+    width: 320px;
+    height: 400px;
+ background-color: #fff;   
+    margin: 10px;
+    border-radius: 25px;
+    border-color: rgb(10,111,154);
+    border-style: ridge;
+  }
+  .pimg1 i{
+    font-size: 5.5rem;
+    color: rgb(10,111,154);
+  }
+  .profile-card h4{
+    font-weight: bold;
+  }
+  .profile-card p{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+  }
+  #How-to-use{
+    background-color: #fff;
+
+  }
+  #how{
+    margin-left: 100px;
+    margin-top: 110px;
+    font-size: 3.5rem;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+  }
+  #how-p{
+    margin-left: 100px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+margin-bottom: 20px;
+font-weight: initial;
+}
+#Steps{
+    margin-left: 100px;
+    color: rgb(10,111,154);
+    font-size: 1.2rem;
+    font-weight:  bolder;
+}
+.steps-contnt{
+    margin-bottom: 60px;
+}
+#Steps span{
+    color: rgb(102, 102, 102);
+}
+  #how-t{
+    margin-top: 80px;
+    margin-right: 70px;
+  }
+  
+#faq{
+    text-align: center;
+    color: rgb(10,111,154);
+    font-size: 4rem;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+  .accordion {
+    background-color: #eee;
+    color:  ;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+     
+
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 5px;
+
+  }
+  
+  .active, .accordion:hover {
+ color: rgb(10,111,154);
+border-color: rgb(10,111,154);
+    
+  }
+  .panel {
+    padding: 0 18px;
+    display: none;
+    color: rgb(10,111,154);
+    font-size: 1.1rem;
+    overflow: hidden;
+    font-weight: bold;
+
+  }
+  .submit{
+    background-color: #fff;
+    margin-top: 110px;
+    width: 100%;
+  }
+  #submit-cnt{
+    text-align: center;
+    font-size: 3.2rem;
+    color: rgb(10,111,154);
+    font-weight: bold;
+margin-top: 50px;
+margin-bottom: 30px;
+  }
+
+  .submit input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: rgb(10,111,154);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .submit button{
+    border-radius: 30px;
+    background-color: rgb(10,111,154);
+
+    width: 120px;
+    height: 50px;
+    margin-bottom: 110px;
+  }
+  .submit h2{
+    text-align: center;
+    color: rgb(49, 72, 82);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+  }
+  .footer{
+    width: 100%;
+    background-color: rgb(10,111,154);
+    position: fixed;
+  }
+  .main-footer{
+    display: flex;
+  }
+  #footer-btm{
+color: white;
+    background-color:  #086972;
+    margin-bottom: 0px;
+    bottom: 0;
+    font-weight: bold;
+  }
+  #right{
+    margin-left: 200px;
+    color: white;
+  }
+#center{
+    margin-left: 30px;
+    color: white;
+    ;
+}
+#right li a{
+    color: #fff;
+    font-size: 1rem;
+}
+#logo{
+    margin-left: 70px;
+
+}
+#footer-p{
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#feedback-h1{
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 100px;
+}
+#feedback{
+  margin-bottom: 60px;
+  margin-top: 100px;
+  height: 410px;
+  border-radius: 30px;
+}
+#feedback input{
+  border-radius: 30px;
+  height: 50px;
+}
+#exampleFormControlTextarea1{
+  border-radius: 30px;
+}
+
+#feeback-button{
+  color: #086972;
+  border-radius: 30px;
+  
+}
